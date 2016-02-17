@@ -1,3 +1,2 @@
 language: objective-c
-script: xcodebuild -project TestTravisCI.xcodeproj -target TestTravisCI -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-
+script: xctool -project TestTravisCI.xcproject -scheme TestTravis -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO 

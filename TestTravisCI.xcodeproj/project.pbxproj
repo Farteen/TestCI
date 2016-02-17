@@ -51,6 +51,7 @@
 		CE42A4001C74167F00E85264 /* TestTravisCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTravisCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE42A4041C74167F00E85264 /* TestTravisCIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTravisCIUITests.m; sourceTree = "<group>"; };
 		CE42A4061C74167F00E85264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE42A4121C741E3E00E85264 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				CE42A3E31C74167F00E85264 /* AppDelegate.m */,
 				CE42A3E51C74167F00E85264 /* ViewController.h */,
 				CE42A3E61C74167F00E85264 /* ViewController.m */,
+				CE42A4121C741E3E00E85264 /* PrefixHeader.pch */,
 				CE42A3E81C74167F00E85264 /* Main.storyboard */,
 				CE42A3EB1C74167F00E85264 /* Assets.xcassets */,
 				CE42A3ED1C74167F00E85264 /* LaunchScreen.storyboard */,
