@@ -12,7 +12,6 @@
 		CE42A3E71C74167F00E85264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42A3E61C74167F00E85264 /* ViewController.m */; };
 		CE42A3EA1C74167F00E85264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE42A3E81C74167F00E85264 /* Main.storyboard */; };
 		CE42A3EC1C74167F00E85264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE42A3EB1C74167F00E85264 /* Assets.xcassets */; };
-		CE42A3EF1C74167F00E85264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE42A3ED1C74167F00E85264 /* LaunchScreen.storyboard */; };
 		CE42A3FA1C74167F00E85264 /* TestTravisCITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42A3F91C74167F00E85264 /* TestTravisCITests.m */; };
 		CE42A4051C74167F00E85264 /* TestTravisCIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42A4041C74167F00E85264 /* TestTravisCIUITests.m */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		CE42A3E61C74167F00E85264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE42A3E91C74167F00E85264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE42A3EB1C74167F00E85264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE42A3EE1C74167F00E85264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE42A3F01C74167F00E85264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE42A3F51C74167F00E85264 /* TestTravisCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTravisCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE42A3F91C74167F00E85264 /* TestTravisCITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTravisCITests.m; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				CE42A4121C741E3E00E85264 /* PrefixHeader.pch */,
 				CE42A3E81C74167F00E85264 /* Main.storyboard */,
 				CE42A3EB1C74167F00E85264 /* Assets.xcassets */,
-				CE42A3ED1C74167F00E85264 /* LaunchScreen.storyboard */,
 				CE42A3F01C74167F00E85264 /* Info.plist */,
 				CE42A3DF1C74167F00E85264 /* Supporting Files */,
 			);
@@ -245,7 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE42A3EF1C74167F00E85264 /* LaunchScreen.storyboard in Resources */,
 				CE42A3EC1C74167F00E85264 /* Assets.xcassets in Resources */,
 				CE42A3EA1C74167F00E85264 /* Main.storyboard in Resources */,
 			);
@@ -316,14 +312,6 @@
 				CE42A3E91C74167F00E85264 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CE42A3ED1C74167F00E85264 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE42A3EE1C74167F00E85264 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
