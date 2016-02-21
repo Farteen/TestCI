@@ -206,6 +206,7 @@
 				TargetAttributes = {
 					CE42A3DB1C74167E00E85264 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G97DW7Z2A4;
 					};
 					CE42A3F41C74167F00E85264 = {
 						CreatedOnToolsVersion = 7.2;
@@ -403,10 +404,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiawei Xu (KYZX6NL899)";
 				INFOPLIST_FILE = TestTravisCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FarTeen.TestTravisCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +417,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiawei Xu (KYZX6NL899)";
 				INFOPLIST_FILE = TestTravisCI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FarTeen.TestTravisCI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +493,7 @@
 				CE42A40B1C74167F00E85264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE42A40C1C74167F00E85264 /* Build configuration list for PBXNativeTarget "TestTravisCITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +502,7 @@
 				CE42A40E1C74167F00E85264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE42A40F1C74167F00E85264 /* Build configuration list for PBXNativeTarget "TestTravisCIUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				CE42A4111C74167F00E85264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

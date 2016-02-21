@@ -1,2 +1,8 @@
 language: objective-c
-script: xctool -project TestTravisCI.xcodeproj -scheme TestTravisCI -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO 
+script: xctool -project TestTravisCI.xcodeproj -scheme TestTravisCI -sdk iphonesimulator
+  ONLY_ACTIVE_ARCH=NO
+env:
+  global:
+    - APP_NAME="TestTravisCI"
+    - 'DEVELOPER_NAME'="iPhone Developer: Jiawei Xu (KYZX6NL899)"
+    - PROFILE_NAME="4982a9fe-d616-4d20-8de1-b7cd41a9f404"
